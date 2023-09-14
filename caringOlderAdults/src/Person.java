@@ -3,7 +3,6 @@ public class Person {
     private int age;
     private String identityDocument;
     private String maritalStatus;
-
     private int stratum;
     private char isPension;
 
