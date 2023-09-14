@@ -5,15 +5,17 @@ public class Person {
     private String maritalStatus;
     private int stratum;
     private char isPension;
+    private char sex;
 
     //Class constructor
-    public Person(String name, int age, String identityDocument, String maritalStatus, int stratum, char isPension) {
+    public Person(String name, int age, String identityDocument, String maritalStatus, int stratum, char isPension, char sex) {
         this.name = name;
         this.age = age;
         this.identityDocument = identityDocument;
         this.maritalStatus = maritalStatus;
         this.stratum = stratum;
         this.isPension = isPension;
+        this.sex = sex;
     }
     //getters and setters
     public String getName() {
