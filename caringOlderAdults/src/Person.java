@@ -7,6 +7,14 @@ public class Person {
     private char isPension;
     private char sex;
 
+    public char getSex() {
+        return sex;
+    }
+
+    public void setSex(char sex) {
+        this.sex = sex;
+    }
+
     //Class constructor
     public Person(String name, int age, String identityDocument, String maritalStatus, int stratum, char isPension, char sex) {
         this.name = name;
